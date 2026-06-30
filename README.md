@@ -4,17 +4,9 @@
 
 ## 🎬 Demo Video
 
-<!-- 
-  📌 HOW TO ADD YOUR VIDEO:
-  Option A (Recommended): Upload your video to YouTube → paste the link below.
-  Option B: Upload to GitHub Issues as described in DEPLOYMENT.md → paste the direct CDN link.
+[![InternFlow Demo - Watch on YouTube](https://img.youtube.com/vi/ZoWRuA7NKjY/maxresdefault.jpg)](https://youtu.be/ZoWRuA7NKjY)
 
-  Replace the placeholder below with your actual video link:
--->
-
-[![InternFlow Demo Video](https://img.shields.io/badge/▶_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-> 📽️ *Click the badge above to watch the full project demo.*
+> 🎬 *Click the thumbnail above to watch the full InternFlow demo on YouTube.*
 
 ---
 
