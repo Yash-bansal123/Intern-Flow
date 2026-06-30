@@ -1,0 +1,47 @@
+{
+  "name": "internflow-server",
+  "version": "1.0.0",
+  "description": "InternFlow - Internship Management Platform Backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --forceExit --detectOpenHandles",
+    "migrate": "node src/database/migrations/migrate.js",
+    "seed": "node src/database/seeds/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.10.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^7.2.0",
+    "joi": "^17.13.4",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.11.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.22.5",
+    "nodemailer": "^6.10.1",
+    "pdfkit": "^0.15.2",
+    "slugify": "^1.6.9",
+    "socket.io": "^4.8.3",
+    "uuid": "^10.0.0",
+    "winston": "^3.14.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.14"
+  },
+  "keywords": [
+    "internship",
+    "management",
+    "platform",
+    "backend"
+  ],
+  "author": "InternFlow Team",
+  "license": "ISC"
+}

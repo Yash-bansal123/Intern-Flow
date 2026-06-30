@@ -1,0 +1,42 @@
+# ===========================
+# Root-level .gitignore
+# Catches any secrets at the project root
+# ===========================
+
+# SECURITY - NEVER commit these!
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.crt
+secrets.json
+credentials.json
+service-account*.json
+
+# Dependencies
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+emails.txt
+
+# Video files (too large for git — host on YouTube or GitHub CDN instead)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.tmp
+*.temp

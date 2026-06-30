@@ -1,0 +1,104 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+
+# ===========================
+# SECURITY - Environment & Secrets (NEVER commit these!)
+# ===========================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+id_rsa
+id_rsa.pub
+secrets.json
+secrets.yaml
+secrets.yml
+service-account*.json
+credentials.json
+
+# ===========================
+# Database
+# ===========================
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+database_dump/
+db_backup/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# Uploaded files (local dev)
+# ===========================
+uploads/
+
+# ===========================
+# Build output
+# ===========================
+dist/
+build/
+
+# ===========================
+# Testing & Coverage
+# ===========================
+coverage/
+.nyc_output/
+
+# ===========================
+# IDE & Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===========================
+# OS generated files
+# ===========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Temp files
+# ===========================
+*.tmp
+*.temp
+
+# ===========================
+# Email log (local dev fail-safe)
+# ===========================
+../emails.txt
+emails.txt
+
+# ===========================
+# Debugging scripts (not for production)
+# ===========================
+check_db.mjs
+get_schema.js
+get_users.js
+print_users.js
+verify_data.mjs
+seed_all_users.mjs
+seed_dummy.js
+seed_fix_feedback.mjs
+test_endpoints.js
